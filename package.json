@@ -1,0 +1,17 @@
+{
+    "name": "multiplayer_server_base",
+    "scripts": {
+        "debug": "node server.js --env=\"test\"",
+        "debug_prod": "node server.js --env=\"production\""
+    },
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "binary-parser": "^1.6.2",
+        "extend": "*",
+        "minimist": "*",
+        "mongoose": "*",
+        "performance-now": "*",
+        "underscore": "*"
+    }
+}
