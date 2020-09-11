@@ -5,8 +5,9 @@ exports.name = "Test Town";
 exports.room = "rm_test_town";
 
 // player starting name
-exports.start_x = 32 * 10;
-exports.start_y = 32 * 10;
+// change from calculation to static set
+exports.start_x = 320; //(32 * 10);
+exports.start_y = 320; //(32 * 10);
 
 // connected clients array
 exports.connected_clients = [];

@@ -135,6 +135,7 @@ module.exports = packet = {
                 client.user.position_y = data.target_y;
 
                 // refactor -- too many saves, move to log out function or on disconnect to save the user 
+                // BUG Stream gets destroyed, causing errors with writing to the data base
                 client.user.save();
                 client.broadcastRoom(packet.build([
                     "POS",

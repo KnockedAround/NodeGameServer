@@ -31,7 +31,7 @@ var environment_conf = {
     production: {
         ip: args.ip || "0.0.0.0",
         port: args.port || 8081,
-        database: "mongodb://localhost/mp_server_base_prod_env"
+        database: "mongodb://localhost:27017/mp_server_base_prod_env"
     },
     test: {
         ip: args.ip || "0.0.0.0",
